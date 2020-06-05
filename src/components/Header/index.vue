@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <Header></Header>
-  </div>
+  <div>header</div>
 </template>
 
 <script type="text/ecmascript-6">

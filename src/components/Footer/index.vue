@@ -1,9 +1,11 @@
 <template>
-  <div></div>
+  <div>Footer</div>
 </template>
 
 <script type="text/ecmascript-6">
-export default {};
+export default {
+  name: "Footer"
+};
 </script>
 
 <style scoped>

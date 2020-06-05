@@ -1,26 +1,25 @@
-import Home from '../pages/Home';
-import Search from '';
-import Register from '';
-import Login from '';
+/* 
+应用的所有路由配置的数组
+*/
+import Home from '../pages/Home'
+import Search from '../pages/Search'
+import Register from '../pages/Register'
+import Login from '../pages/Login'
 
 export default [{
-        path: "/",
-        component: Home,
+        path: '/',
+        component: Home
     },
     {
-        path: "/",
-        component: Search,
+        path: '/search',
+        component: Search
     },
     {
-        path: "/",
-        component: Register,
+        path: '/register',
+        component: Register
     },
     {
-        path: "/",
-        component: Login,
+        path: '/login',
+        component: Login
     },
-
-
-
-
 ]
